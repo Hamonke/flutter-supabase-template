@@ -10,8 +10,8 @@
       "type": "dart",
       "program": "lib/main_prod.dart",
       "args": [
-        "--dart-define=SUPABASE_URL=https://vpdraslovnpohmqixsbp.supabase.co",
-        "--dart-define=SUPABASE_ANNON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZwZHJhc2xvdm5wb2htcWl4c2JwIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTk2MDU5MjEsImV4cCI6MTk3NTE4MTkyMX0.Jn2YujQKCo94nIY5StPHcwvc4H5PfWb4pxDZDZpR-Yg"
+        "--dart-define=SUPABASE_URL=https://eugdxlvtjjmshwrhgkns.supabase.co",
+        "--dart-define=SUPABASE_ANNON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1Z2R4bHZ0amptc2h3cmhna25zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc3MDU2MjcsImV4cCI6MjA0MzI4MTYyN30.anYnWMXraoVpB6F5Kk7BPjqQQsu2HI_wE_zVomcuwt4"
       ]
     }
   ]

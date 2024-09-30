@@ -29,6 +29,8 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
         const Duration(milliseconds: 2000),
       ),
     ]).then((responseList) {
+      if (!mounted) return; // Check if the widget is still in the widget tree
+
       final session = responseList.first as Session?;
 
       /// Redirect to either home or sign in routes based on current session.
@@ -42,19 +44,20 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
         );
       }
     }).catchError((_) {
+      if (!mounted) return; // Check if the widget is still in the widget tree
       context.router.replace(const SignInRoute());
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
       child: Scaffold(
         body: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               CircularProgressIndicator(),
             ],
           ),
